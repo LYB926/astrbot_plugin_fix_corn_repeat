@@ -1,0 +1,8 @@
+name: astrbot_plugin_fix_corn_repeat
+display_name: 未来任务重复发送止血
+short_desc: 防止 AstrBot 未来任务在一次运行中重复发送消息。
+desc: 兼容性修复：未来任务首次成功发送后终止本次 Agent 运行，避免一分钟内重复刷屏。
+version: v0.1.0
+author: LYB926
+repo: https://github.com/LYB926/astrbot_plugin_fix_corn_repeat
+astrbot_version: ">=4.26.6,<4.27"
